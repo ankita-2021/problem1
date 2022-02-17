@@ -1,8 +1,186 @@
-#hero {
-    background: url('C:\Users\User\10x project\problem1\problem1\src\Assignment-4\images\logo_pic.png') no-repeat;
-    background-size: cover;
-    text-align: center;
-    padding: 50px 0;
-    margin-bottom: 50px;
+.container, .content {
+  width: 100%;
+  height: 100%;
   }
+  
+  header {
+    background: #92E0E5;
+    color: white;
+    height: 50px;
+    padding: 25 30px;
+    
+  }
+  .Box1{
+    width: 100%;
+    height: 20%;
+    background-color: rgba(192, 109, 13, 0.726);
+    display: inline-block;
+  }
+  #logo{
+    width: 3%;
+    height: 3%;
+    padding: 0.5%;
+    margin-left: 4%;
+  }
+  .navigation1{
+    float: right;
+    margin-top: -4.3%;
+    margin-right: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+  a{
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+    font: bold;
+  }
+  .Box2{
+    width: 100%;
+    height: 40%;
+  }
+  #backimg{
+    background-image: url("./images/unnamed.jpg");
+    width: 104.5em;
+    height: 40em;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #radius1{
+    width: 20%;
+    height: 40%;
+    border-radius: 100%;
+    position: absolute;
+    right: 40%;
+    margin-top: 7%;
+    border: 5px solid aquamarine;
+  }
+  h1{
+    position: absolute;
+    right: 41%;
+    margin-top: 4%;
+    font-size: xx-large;
+  }
+  .button1{
+    width: 8%;
+    height: 8%;
+    position: absolute;
+    right: 46%;
+    margin-top: 29%;
+    background-color: rgb(207, 223, 223);
+    color: rgb(243, 20, 105);
+    border: 2px solid black;
+    font-size: large;
+  }
+  .Box3{
+    width: 100%;
+    height: 50%;
+    display: inline-block;
+    display: flex;
+    justify-content: start;
+    justify-items: space-between;
+    gap: 9%;
+  }
+  .col1{
+    width:30%;
+    height: 50%;
+    display: inline-block;
+  }
+  #radius2{
+    width:50%;
+    height: 50%;
+    border-radius: 100%;
+    border: 2px solid black;
+  }
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .button2{
+    position: absolute;
+    right: 84%;
+    margin-top: 2%;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(11, 5, 97);
+    font-size: large;
+  }
+  .col2{
+    width:30%;
+    height: 50%;
+    display: inline-block;
+  }
+  .button3{
+    position: absolute;
+    right: 47%;
+    margin-top: 2%;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(11, 5, 97);
+    font-size: large;
+  }
+  .col3{
+    width:30%;
+    height: 50%;
+    display: inline-block;
+  }
+  .button4{
+    position: absolute;
+    right: 11%;
+    margin-top: 1%;
+    background-color:white;
+    color: black;
+    border: 2px solid rgb(11, 5, 97);
+    font-size: large;
+  }
+  h3{
+    font-size: xx-large;
+    text-align: center;
+    color: red;
+  }
+  p{
+    text-align: center;
+  }
+  .Box4{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    margin-top: 8%;
+    background-color:silver;
+    padding-bottom: 2%;
+  }
+  h4{
+    font-size: xx-large;
+    padding-top: 2%;
+    color: white;
+  }
+  .navigation2{
+    display: flex;
+    gap: 2%;
+    justify-self: start;
+    justify-content: center;
+  }
+  #twitter{
+    border-radius: 100%;
+    border: 5px solid white;
+  }
+  #facebook{
+    border-radius: 100%;
+    border: 5px solid white;
+  }
+  #instagram{
+    border-radius: 100%;
+    border: 5px solid white;
+  }
+  #linkdin{
+    border-radius: 100%;
+    border: 5px solid white;
+  }
+  .navigation3{
+    padding-top: 2%;
+  }
+
   
